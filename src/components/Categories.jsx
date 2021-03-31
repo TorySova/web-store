@@ -10,7 +10,8 @@ export const Categories = ({ items }) => {
         <div className="categories">
             <ul>
                 <li className={active === null ? 'active' : ''}
-                    onClick={() => onSelectItem(null)}>Все
+                    onClick={() => onSelectItem(null)}>
+                    Все
                 </li>
                 {
                     items && items.map((name, index) => (
